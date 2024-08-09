@@ -24,21 +24,22 @@
             </article>
         
             <form>
+                <h2>Kalkulator</h2>
                 <label for="fgender">Jenis Kelamin:</label><br>
                 <input type="radio" id="fgender" name="fgender" value="Laki-Laki">
                 <label for="fgender">Laki-Laki</label>
                 <input type="radio" id="fgender" name="fgender" value="Perempuan">
                 <label for="fgender">Perempuan</label><br>
         
-                <label for="fberat">Berat Badan(kg)</label><br>
+                <label for="fberat">Berat Badan (kg):</label><br>
                 <input type="number" name="fberat" id="fberat"><br>
-                <label for="fusia">Usia Badan</label><br>
+                <label for="fusia">Usia:</label><br>
                 <input type="number" name="fusia" id="fusia"><br>
-                <label for="ftinggi">Tinggi Badan (cm)</label><br>
+                <label for="ftinggi">Tinggi Badan (cm):</label><br>
                 <input type="number" name="ftinggi" id="ftinggi">
         
                 <br>
-                <input type="submit" value="Hitung-BMI">
+                <input type="submit" value="Hitung-BMI" class="submit">
                 <button id="btn-reset">Reset</button>
             </form>
         
@@ -54,13 +55,19 @@
             </article>
         </main>
         <aside>
-            <article>
-                <h2>Hasil</h2>
+            <article class="fitur">
+                <h2>Keunggulan fitur</h2>
                 <p>
                     Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan
                     ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung sekarang di BMI Kalkulator.
                 </p>
             </article>
+            
+            <div class="hasil">
+                <h2>Hasil</h2>
+                <!-- <p hidden></p> -->
+            </div>
+
             <article>
                 <p>
                     Kalkulator BMI adalah alat untuk mengidentifikasi apakah berat badan kamu termasuk dalam kategori ideal atau
@@ -77,7 +84,7 @@
 
     <footer>
         <p>
-            Web Made By Muhammad Rafi Wijaya.
+            Web Made By Muhammad Rafi Wijaya &copy;.
         </p>
     </footer>
 </body>
