@@ -4,27 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hitung-BMI</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css\style.css">
     <script src="script.js"></script>
 </head>
 <body>
-    <form>
-        <label for="fgender">Jenis Kelamin:</label><br>
-        <input type="radio" id="fgender" name="fgender" value="Laki-Laki">
-        <label for="fgender">Laki-Laki</label>
-        <input type="radio" id="fgender" name="fgender" value="Perempuan">
-        <label for="fgender">Perempuan</label><br>
+    <header>
+        <h1>KALKULATOR BMI</h1>
+    </header>
 
-        <label for="fberat">Berat Badan(kg)</label><br>
-        <input type="number" name="fberat" id="fberat"><br>
-        <label for="fusia">Usia Badan</label><br>
-        <input type="number" name="fusia" id="fusia"><br>
-        <label for="ftinggi">Tinggi Badan (cm)</label><br>
-        <input type="number" name="ftinggi" id="ftinggi">
+    <div class="flex-container">
+        <main>
+            <article>
+                <h2>Informasi</h2>
+                <p>
+                    Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan,
+                    berat badan
+                    ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung sekarang di BMI Kalkulator.
+                </p>
+            </article>
+        
+            <form>
+                <label for="fgender">Jenis Kelamin:</label><br>
+                <input type="radio" id="fgender" name="fgender" value="Laki-Laki">
+                <label for="fgender">Laki-Laki</label>
+                <input type="radio" id="fgender" name="fgender" value="Perempuan">
+                <label for="fgender">Perempuan</label><br>
+        
+                <label for="fberat">Berat Badan(kg)</label><br>
+                <input type="number" name="fberat" id="fberat"><br>
+                <label for="fusia">Usia Badan</label><br>
+                <input type="number" name="fusia" id="fusia"><br>
+                <label for="ftinggi">Tinggi Badan (cm)</label><br>
+                <input type="number" name="ftinggi" id="ftinggi">
+        
+                <br>
+                <input type="submit" value="Hitung-BMI">
+                <button id="btn-reset">Reset</button>
+            </form>
+        
+            <article>
+                <p>
+                    Kalkulator BMI adalah alat untuk mengidentifikasi apakah berat badan kamu termasuk dalam kategori ideal atau
+                    tidak.
+                    Kalkulator ini dapat digunakan oleh seseorang yang berusia 20 tahun ke atas.
+                    Perlu diingat bahwa Kalkulator BMI ini tidak dapat diaplikasikan untuk ibu hamil dan anak-anak karena
+                    standar BMI yang
+                    berbeda.
+                </p>
+            </article>
+        </main>
+        <aside>
+            <article>
+                <h2>Hasil</h2>
+                <p>
+                    Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan
+                    ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung sekarang di BMI Kalkulator.
+                </p>
+            </article>
+            <article>
+                <p>
+                    Kalkulator BMI adalah alat untuk mengidentifikasi apakah berat badan kamu termasuk dalam kategori ideal atau
+                    tidak.
+                    Kalkulator ini dapat digunakan oleh seseorang yang berusia 20 tahun ke atas.
+                    Perlu diingat bahwa Kalkulator BMI ini tidak dapat diaplikasikan untuk ibu hamil dan anak-anak karena
+                    standar
+                    BMI yang
+                    berbeda.
+                </p>
+            </article>
+        </aside>
+    </div>
 
-        <br>
-        <input type="submit" value="Submit">
-        <button id="btn-reset">Reset</button>
-    </form>
+    <footer>
+        <p>
+            Web Made By Muhammad Rafi Wijaya.
+        </p>
+    </footer>
 </body>
 </html>
