@@ -8,7 +8,10 @@ body{
 }
 header {
     border: 1px solid;
-    /* padding: 90px; */
+    background-color: #001965;
+    color: white;
+    padding: 10px;
+    border: none;
     text-align: center;
 }
 .flex-container {
@@ -19,69 +22,130 @@ header {
 .flex-container {
     background-color: #f1f1f1;
     margin: 10px;
-    padding: 20px;
+    padding: 30px;
     /* font-size: 30px; */
 }
 main{
-    background-color: tomato;
+    background-color: #27408c;
+    border-right: 1px solid white;
+    border-radius: 15px;
+    margin-right: 10px;  
 }
 aside{
-    background-color: cornflowerblue;
+    background-color: #27408c;
+    border-left: 1px solid white;
+    border-radius: 15px;
 }
+
 article{
     padding: 0 50px;
-
+    color: white;
 }
 form{
     padding: 12px 50px;
-    background-color: aquamarine;
+    background-color: #3456bc;
+    color: #27408c;
+    font-weight: bold;
+    /* border-right: 1px solid white; */
 }
 form input[type=number]{
     width: 100%;
     margin: 8px 0;
-    padding: 12px 20px;
-    border: 1px solid #ccc;
+    padding: 16px 20px;
+    border: 1px solid #27408c;
     display: inline-block;
     box-sizing: border-box;
-    /* border-radius: 4px; */
+    border-radius: 10px;
+}
+form .card{
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(68, 17, 17, 0.2);
+    padding: 40px 20px;
+    background-color: #a9b2b1;
+    border-radius: 15px;
+    border: 1px solid #27408c;
 }
 .submit{
-    background-color: green;
+    background-color: blue;
     color: white;
-    border-radius: 10px;
-    border: 4px solid lightgreen;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    border-radius: 15px;
+    border: 1px blue solid;
+    padding: 5px 15px;
     margin: 10px 0;
+    font-size: small;
 }
 .submit:hover{
-    background-color: lightgreen;
-    border: 4px solid darkgreen;
-    color: green;
+    background-color: white;
+    border: 1px solid darkblue;
+    color: blue;
+}
+form h2{
+    color: white;
 }
 button{
     background-color: red;
     color: white;
-    border: 4px solid lightcoral;
-    border-radius: 10px ;
-    padding: 5px;
+    border: 1px red solid;
+    border-radius: 15px ;
+    padding: 5px 10px;
 }
 button:hover {
     background-color: lightcoral;
-    border: 4px solid darkred;
+    border: 1px solid darkred;
     color: red;
 }
-article .fitur{
-    padding-bottom: 10px;
+.fitur{
+    padding: 5px 50px;
+    /* padding-bottom: 0px; */
+    color: white;
 }
 .hasil{
-    margin: 8px 0;
-    /* border: 1px solid; */
+    margin: 12px 0;
+    /* border-left: 1px solid white; */
     /* margin-top: px; */
-    padding: 12px 50px 12px;
-    background-color: lightcyan;
+    
+    padding: 12px 50px;
+    padding-bottom: 180px;
+    background-color: cornflowerblue;
 }
+.hasil h2{
+    color: white;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 55px 80px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    border: 1px solid #27408c;
+}
+
+table{
+    border: 1px solid #001965;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    padding: 100px 10px;
+    margin: 45px 0;
+    color: #001965;
+}
+.blue{
+    background-color: lightblue;
+}
+.green{
+    background-color: lightgreen;
+}
+.yellow{
+    background-color: lightyellow;
+}
+.red{
+    background-color: lightcoral;
+}
+
 footer{
     text-align: center;
+    background-color: #001965;
+    color: white;
+    padding: 20px;
+    /* margin: 8px 0; */
 }

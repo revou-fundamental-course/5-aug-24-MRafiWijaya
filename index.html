@@ -25,22 +25,24 @@
         
             <form>
                 <h2>Kalkulator</h2>
-                <label for="fgender">Jenis Kelamin:</label><br>
-                <input type="radio" id="fgender" name="fgender" value="Laki-Laki">
-                <label for="fgender">Laki-Laki</label>
-                <input type="radio" id="fgender" name="fgender" value="Perempuan">
-                <label for="fgender">Perempuan</label><br>
-        
-                <label for="fberat">Berat Badan (kg):</label><br>
-                <input type="number" name="fberat" id="fberat"><br>
-                <label for="fusia">Usia:</label><br>
-                <input type="number" name="fusia" id="fusia"><br>
-                <label for="ftinggi">Tinggi Badan (cm):</label><br>
-                <input type="number" name="ftinggi" id="ftinggi">
+                <div class="card">
+                    <label for="fgender">Jenis Kelamin:</label><br>
+                    <input type="radio" id="fgender" name="fgender" value="Laki-Laki">
+                    <label for="fgender">Laki-Laki</label>
+                    <input type="radio" id="fgender" name="fgender" value="Perempuan">
+                    <label for="fgender">Perempuan</label><br>
+            
+                    <label for="fberat">Berat Badan (kg):</label><br>
+                    <input type="number" name="fberat" id="fberat"><br>
+                    <label for="fusia">Usia:</label><br>
+                    <input type="number" name="fusia" id="fusia"><br>
+                    <label for="ftinggi">Tinggi Badan (cm):</label><br>
+                    <input type="number" name="ftinggi" id="ftinggi">
+                    <input type="submit" value="Hitung-BMI" class="submit">
+                    <button id="btn-reset">Reset</button>
+                </div>
         
                 <br>
-                <input type="submit" value="Hitung-BMI" class="submit">
-                <button id="btn-reset">Reset</button>
             </form>
         
             <article>
@@ -58,26 +60,45 @@
             <article class="fitur">
                 <h2>Keunggulan fitur</h2>
                 <p>
-                    Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan
-                    ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung sekarang di BMI Kalkulator.
+                    Anda dapat menggunakan kalkulator BMI di sini untuk membagi berat badan Anda dalam kg dengan tinggi badan Anda dalam
+                    meter dan membandingkan hasilnya dengan kelas BMI. Masukkan tinggi dan berat badan Anda dan periksa hasilnya pada tabel
+                    di bawah. Klik pada kelas BMI untuk mempelajari lebih lanjut.
                 </p>
             </article>
             
             <div class="hasil">
                 <h2>Hasil</h2>
-                <!-- <p hidden></p> -->
+                <div class="card">
+                    <p>Hasil BMI anda:</p>
+                    <h1  class="h1hasil">2344</h1>
+                    <!-- <p hidden>here information about your health</p> -->
+                    <p class="kethasil">Normal weight</p>
+                </div>
             </div>
 
-            <article>
-                <p>
-                    Kalkulator BMI adalah alat untuk mengidentifikasi apakah berat badan kamu termasuk dalam kategori ideal atau
-                    tidak.
-                    Kalkulator ini dapat digunakan oleh seseorang yang berusia 20 tahun ke atas.
-                    Perlu diingat bahwa Kalkulator BMI ini tidak dapat diaplikasikan untuk ibu hamil dan anak-anak karena
-                    standar
-                    BMI yang
-                    berbeda.
-                </p>
+            <article class="ino">
+                <table border="1px">
+                    <tr class="blue">
+                        <th>BMI</th>
+                        <th>Status Berat Badan</th>
+                    </tr>
+                    <tr class="yellow">
+                        <td>Kurang dari 18.5</td>
+                        <td>Kekurangan berat badan</td>
+                    </tr>
+                    <tr class="green">
+                        <td>18.5-24.9</td>
+                        <td>Normal</td>
+                    </tr>
+                    <tr class="yellow">
+                        <td>25.0-29.9</td>
+                        <td>Kelebihan berat badan</td>
+                    </tr>
+                    <tr class="red">
+                        <td>30.0 atau lebih</td>
+                        <td>Kegemukan(Obesitas)</td>
+                    </tr>
+                </table>
             </article>
         </aside>
     </div>
