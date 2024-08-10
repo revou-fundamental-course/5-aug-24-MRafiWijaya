@@ -28,14 +28,14 @@ header {
 }
 main{
     background-color: #27408c;
-    border-right: 1px solid white;
+    /* border-right: 1px solid white; */
     border-radius: 15px;
     margin-right: 10px;  
     box-shadow: 0 4px 8px 0 rgba(68, 17, 17, 0.2);
 }
 aside{
     background-color: #27408c;
-    border-left: 1px solid white;
+    /* border-left: 1px solid white; */
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(68, 17, 17, 0.2);
 }
