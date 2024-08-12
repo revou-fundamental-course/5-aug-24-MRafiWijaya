@@ -1,17 +1,3 @@
-// var berat_bdn = document.getElementById("fberat");
-// var tinggi_bdn = document.getElementById("ftinggi");
-// var berat_bdn = 70;
-// var tinggi_bdn = 150;
-// var tinggi =  tinggi_bdn / 100;
-// function hasilBmi(berat_bdn, tinggi) {
-//     return berat_bdn / (tinggi * tinggi);
-// }
-// var hasilBmi = hasilBmi(berat_bdn , tinggi);
-// function peringatan(event) {
-//     event.preventDefault();
-//     alert("sudah diklik");
-    
-// }
 function getHasil(event) {
     event.preventDefault();
 
