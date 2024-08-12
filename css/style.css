@@ -14,6 +14,7 @@ header {
     padding: 10px;
     border: none;
     text-align: center;
+    
 }
 .flex-container {
     display: flex;
@@ -32,12 +33,19 @@ main{
     border-radius: 15px;
     margin-right: 10px;  
     box-shadow: 0 4px 8px 0 rgba(68, 17, 17, 0.2);
+    /* overflow */
+    /* padding: 20px; */
+        /* overflow: auto; */
+    width: 50%;
+    float: left;
 }
 aside{
     background-color: #27408c;
     /* border-left: 1px solid white; */
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(68, 17, 17, 0.2);
+    float: right;
+    width: 50%;
 }
 
 article{
@@ -68,7 +76,7 @@ form .card{
     border-radius: 15px;
     border: 1px solid #27408c;
 }
-.submit{
+form input[type=submit]{
     background-color: blue;
     color: white;
     border-radius: 15px;
@@ -77,7 +85,7 @@ form .card{
     margin: 10px 0;
     font-size: small;
 }
-.submit:hover{
+form input[type=submit]:hover{
     background-color: white;
     border: 1px solid darkblue;
     color: blue;
@@ -108,7 +116,7 @@ button:hover {
     /* margin-top: px; */
     
     padding: 12px 50px;
-    padding-bottom: 180px;
+    padding-bottom: 100px;
     background-color: cornflowerblue;
 }
 .hasil h2{
@@ -151,4 +159,12 @@ footer{
     color: white;
     padding: 20px;
     /* margin: 8px 0; */
+}
+@media screen and (max-width:1000px) {
+
+    main,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
 }
