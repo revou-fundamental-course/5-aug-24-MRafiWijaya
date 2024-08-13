@@ -29,19 +29,14 @@ header {
 }
 main{
     background-color: #27408c;
-    /* border-right: 1px solid white; */
     border-radius: 15px;
     margin-right: 10px;  
     box-shadow: 0 4px 8px 0 rgba(68, 17, 17, 0.2);
-    /* overflow */
-    /* padding: 20px; */
-        /* overflow: auto; */
     width: 50%;
     float: left;
 }
 aside{
     background-color: #27408c;
-    /* border-left: 1px solid white; */
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(68, 17, 17, 0.2);
     float: right;
@@ -57,7 +52,6 @@ form{
     background-color: #3456bc;
     color: #27408c;
     font-weight: bold;
-    /* border-right: 1px solid white; */
 }
 form input[type=number]{
     width: 100%;
@@ -107,14 +101,10 @@ button:hover {
 }
 .fitur{
     padding: 5px 50px;
-    /* padding-bottom: 0px; */
     color: white;
 }
 .hasil{
     margin: 12px 0;
-    /* border-left: 1px solid white; */
-    /* margin-top: px; */
-    
     padding: 12px 50px;
     padding-bottom: 100px;
     background-color: cornflowerblue;
@@ -136,7 +126,6 @@ table{
     border-collapse: collapse;
     text-align: center;
     width: 100%;
-    /* padding: 90px 10px; */
     margin: 45px 0;
     color: #001965;
 }
@@ -158,7 +147,6 @@ footer{
     background-color: #001965;
     color: white;
     padding: 20px;
-    /* margin: 8px 0; */
 }
 @media screen and (max-width:1000px) {
 
@@ -173,4 +161,8 @@ footer{
         width: 100%;
         padding: 0;
     }
+    table{
+        font-size: 10px;
+    }
+
 }
