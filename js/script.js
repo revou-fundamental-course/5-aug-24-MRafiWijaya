@@ -1,10 +1,14 @@
+// buat function getHasil untuk validate form
 function getHasil(event) {
     event.preventDefault();
+    // preventDefault adalah method yang digunakan untuk mencegah perilaku bawaan dari suatu even). 
 
+    // buat variabel beratBadan, tinggBadan ,tinggi dan hasilBmi
     let beratBadan = document.getElementById("fberat").value;
     let tinggiBadan = document.getElementById("ftinggi").value;
     var tinggi =  tinggiBadan / 100;
     var hasilBmi = beratBadan / (tinggi * tinggi);
+    // gunakan perulangan untuk menampilkan hasil BMI
     if (hasilBmi <= 18.5) {
         document.getElementById("bmiResult").textContent = "BMI: " + hasilBmi.toFixed(2);
         document.getElementById("kethasil").textContent = "Kekurangan Berat Badan";
@@ -23,7 +27,7 @@ function getHasil(event) {
         console.log("Kegemukan (Obesitas)");
     } else {
         document.getElementById("bmiResult").textContent = "";
-        document.getElementById("kethasil").textContent = "Silakan masukkan nilai.";
+        document.getElementById("kethasil").textContent = "Anda belum memasukan nilai.";
         console.log("belum memasukan nilai");
     }
 }
